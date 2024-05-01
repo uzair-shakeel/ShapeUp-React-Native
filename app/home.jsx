@@ -6,6 +6,7 @@ import Profile from "../assets/images/3.jpg";
 // import Ionicons from "react-native-vector-icons/dist/Ionicons";
 import { Ionicons } from "@expo/vector-icons";
 import Slider from "../components/Slider";
+import BodyParts from "../components/BodyParts";
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
       </View>
       <View>
         <Slider />
+      </View>
+      <View className="flex-1">
+        <BodyParts />
       </View>
     </SafeAreaView>
   );
